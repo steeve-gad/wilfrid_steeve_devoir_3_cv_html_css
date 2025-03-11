@@ -34,7 +34,7 @@ body {
 
 /* Header */
 header {
-    background: #009688;
+    background: #17abb3;
     color: white;
     padding: 20px;
     font-family: 'Lato', sans-serif;
@@ -106,7 +106,7 @@ aside {
 aside h3 {
     margin-top: 0;
     font-size: 20px;
-    color: #009688;
+    color: #17abb3;
 }
 
 aside ul {
@@ -128,7 +128,7 @@ aside ul li {
 .content h3 {
     margin-top: 0;
     font-size: 20px;
-    color: #009688;
+    color: #17abb3;
 }
 
 .item {
@@ -140,7 +140,7 @@ aside ul li {
 
 .item:hover {
     background: #b2dfdb;
-    border-left: 5px solid #009688;
+    border-left: 5px solid #17abb3;
 }
 
 .item h4 {
@@ -157,7 +157,7 @@ aside ul li {
 footer {
     text-align: center;
     margin-top: 20px;
-    background: #009688;
+    background: #17abb3;
     color: white;
     padding: 10px 0;
 }
@@ -173,11 +173,14 @@ footer p {
 }
 
 .social-icons a {
-    color: #333; /* Couleur des icônes */
+    color: white; /* Couleur des icônes */
     font-size: 24px; /* Taille des icônes */
     transition: color 0.3s ease;
 }
 
 .social-icons a:hover {
-    color: #0077b5; 
+    color: #333333; 
+}
+.social-icons i {
+    opacity: 0,7;
 }
